@@ -10,15 +10,17 @@ from pyrogram.errors import UserNotParticipant
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
-<i>👋 Hi,</i>{}\n
+<i>Hi,</i>{}\n
 <i>I'm Telegram Files to Direct Link Generater Bot.</i>\n
 <i>Click on Help to Get More Information</i>\n
-<i>If Not Working <a href='https://sagefiletolink.herokuapp.com/'>Click Here</a> and Try Again</i>\n
+<i>Visit this <a href='https://sagefiletolink.herokuapp.com/'>Website</a> If Bot is Sleeping/Not Working</i>\n
 """
 
 HELP_TEXT = """
 <i>- Send Me any Telegram File or Media.</i>
+
 <i>- I will Provide you Direct Download Link !.</i>
+
 <i>- This will be Permanent Link with High Speed </i>\n
 """
 
