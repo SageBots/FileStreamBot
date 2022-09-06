@@ -29,7 +29,7 @@ ABOUT_TEXT = """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('HOME', callback_data='help'),
+        InlineKeyboardButton('HELP', callback_data='help'),
         InlineKeyboardButton('ABOUT', callback_data='about'),
         
         ]]
